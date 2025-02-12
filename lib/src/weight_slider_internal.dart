@@ -116,7 +116,7 @@ class WeightSliderInternal extends StatelessWidget {
         _animateTo(middleValue);
       }
 
-      if (middleValue != value && this.onChange != null) {
+      if (middleValue != value) {
         this.onChange(middleValue);
       }
     }
